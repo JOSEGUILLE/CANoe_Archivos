@@ -1,0 +1,36 @@
+/*@!Encoding:1252*/
+/*@!Encoding:1252*/
+includes
+{
+}
+variables
+{
+message PeriodSelector periods_settings_var;
+message LedMessage leds_values_var;
+}
+on start {
+}
+on sysvar_update handson::period1_svc{
+periods_settings_var.ADCPeriodSel_1 = @handson::period1_svc;
+output(periods_settings_var);
+}
+on sysvar_update handson::led1_svc{
+leds_values_var.Led_1 = @handson::led1_svc;
+output(leds_values_var);
+}
+on sysvar_update handson::period2_svc{
+periods_settings_var.ADCPeriodSel_2 = @handson::period2_svc;
+output(periods_settings_var);
+}
+on sysvar_update handson::led2_svc{
+leds_values_var.Led_2 = @handson::led2_svc;
+output(leds_values_var);
+}
+on sysvar_update handson::period3_svc{
+periods_settings_var.ADCPeriodSel_3 = @handson::period3_svc;
+output(periods_settings_var);
+}
+on sysvar_update handson::led3_svc{
+leds_values_var.Led_3 = @handson::led3_svc;
+output(leds_values_var);
+}

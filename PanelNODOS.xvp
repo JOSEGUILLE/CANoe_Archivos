@@ -1,0 +1,215 @@
+<?xml version="1.0"?>
+<Panel Type="Vector.CANalyzer.Panels.PanelSerializer, Vector.CANalyzer.Panels.Serializer, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null">
+  <Object Type="Vector.CANalyzer.Panels.Runtime.Panel, Vector.CANalyzer.Panels.Common, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="Panel" Children="Controls" ControlName="PanelNODOS">
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl7" Children="Controls" ControlName="Static Text">
+      <Property Name="Name">StaticTextControl7</Property>
+      <Property Name="Size">334, 13</Property>
+      <Property Name="Location">16, 172</Property>
+      <Property Name="BackColor">LightSteelBlue</Property>
+      <Property Name="Text">______________________________________________________-</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl6" Children="Controls" ControlName="Static Text">
+      <Property Name="Name">StaticTextControl6</Property>
+      <Property Name="Size">334, 13</Property>
+      <Property Name="Location">16, 364</Property>
+      <Property Name="BackColor">LightSteelBlue</Property>
+      <Property Name="Text">______________________________________________________-</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl4" Children="Controls" ControlName="Static Text 3">
+      <Property Name="Name">StaticTextControl4</Property>
+      <Property Name="Size">78, 22</Property>
+      <Property Name="Location">166, 323</Property>
+      <Property Name="BackColor">LightSteelBlue</Property>
+      <Property Name="Font">Arial, 14.25pt, style=Bold</Property>
+      <Property Name="Text">NODO2</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl2" ControlName="Analog Gauge">
+      <Property Name="Name">AnalogGaugeControl2</Property>
+      <Property Name="Size">236, 182</Property>
+      <Property Name="Location">356, 189</Property>
+      <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAW1ZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTguMi44MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAADZWZWN0b3IuQ0FOYWx5emVyLlBhbmVscy5EZXNpZ24uR2F1Z2VDcml0aWNhbFByb3BlcnRpZXMGBQAAADJWb2lkIC5jdG9yKERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSwgRG91YmxlKQYGAAAAUC5jdG9yKFN5c3RlbS5Eb3VibGUsIFN5c3RlbS5Eb3VibGUsIFN5c3RlbS5Eb3VibGUsIFN5c3RlbS5Eb3VibGUsIFN5c3RlbS5Eb3VibGUpAQAAAAoL">
+        <Argument>0</Argument>
+        <Argument>3000</Argument>
+        <Argument>0</Argument>
+        <Argument>500</Argument>
+        <Argument>2000</Argument>
+      </Property>
+      <Property Name="GaugeFont">Microsoft Sans Serif, 8pt</Property>
+      <Property Name="SymbolConfiguration">4;2;CAN;;ADC_Read_2;ADC_2_input;1;CAN;;-1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl3" ControlName="Switch/Indicator 2">
+      <Property Name="Name">SwitchControl3</Property>
+      <Property Name="Size">40, 30</Property>
+      <Property Name="Location">219, 263</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="Activation">Left</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SymbolConfiguration">4;16;handson;;;led2_svc;1;;;-1</Property>
+      <Property Name="TabIndex">34</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TrackBarControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="TrackBarControl2" Children="Controls" ControlName="Track Bar">
+      <Property Name="Name">TrackBarControl2</Property>
+      <Property Name="Size">167, 47</Property>
+      <Property Name="Location">116, 189</Property>
+      <Property Name="Maximum">100</Property>
+      <Property Name="TickFrequency">25</Property>
+      <Property Name="BackColor">Cornsilk</Property>
+      <Property Name="TickFrequencyDouble">25</Property>
+      <Property Name="MaximumDouble">100</Property>
+      <Property Name="DisplayValue">True</Property>
+      <Property Name="CommitValue">OnlyLastValue</Property>
+      <Property Name="SymbolConfiguration">4;16;handson;;;period2_svc;1;;;-1</Property>
+      <Property Name="TabIndex">33</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl4" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl4</Property>
+      <Property Name="Size">23, 30</Property>
+      <Property Name="Location">155, 263</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="IsButton">True</Property>
+      <Property Name="ImageFile">..\..\..\Public\Documents\Vector\CANoe\8.2\CANoe Demos\templates\Vector_LEDgreen_2.bmp</Property>
+      <Property Name="SymbolConfiguration">4;2;CAN;;LedMessage;Led_2;1;CAN;;-1</Property>
+      <Property Name="TabIndex">32</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TrackBarControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="TrackBarControl3" Children="Controls" ControlName="Track Bar">
+      <Property Name="Name">TrackBarControl3</Property>
+      <Property Name="Size">167, 47</Property>
+      <Property Name="Location">116, 383</Property>
+      <Property Name="Maximum">100</Property>
+      <Property Name="TickFrequency">25</Property>
+      <Property Name="BackColor">Cornsilk</Property>
+      <Property Name="TickFrequencyDouble">25</Property>
+      <Property Name="MaximumDouble">100</Property>
+      <Property Name="DisplayValue">True</Property>
+      <Property Name="CommitValue">OnlyLastValue</Property>
+      <Property Name="SymbolConfiguration">4;16;handson;;;period3_svc;1;;;-1</Property>
+      <Property Name="TabIndex">18</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl1" Children="Controls" ControlName="Static Text 3">
+      <Property Name="Name">StaticTextControl1</Property>
+      <Property Name="Size">58, 22</Property>
+      <Property Name="Location">31, 62</Property>
+      <Property Name="BackColor">CornflowerBlue</Property>
+      <Property Name="Font">Arial, 14.25pt, style=Bold</Property>
+      <Property Name="Text">MAIN</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl5" Children="Controls" ControlName="Static Text 3">
+      <Property Name="Name">StaticTextControl5</Property>
+      <Property Name="Size">78, 22</Property>
+      <Property Name="Location">166, 507</Property>
+      <Property Name="BackColor">LightSteelBlue</Property>
+      <Property Name="Font">Arial, 14.25pt, style=Bold</Property>
+      <Property Name="Text">NODO3</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl3" Children="Controls" ControlName="Static Text 3">
+      <Property Name="Name">StaticTextControl3</Property>
+      <Property Name="Size">78, 22</Property>
+      <Property Name="Location">166, 133</Property>
+      <Property Name="BackColor">LightSteelBlue</Property>
+      <Property Name="Font">Arial, 14.25pt, style=Bold</Property>
+      <Property Name="Text">NODO1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StaticTextControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="StaticTextControl2" Children="Controls" ControlName="Static Text 2">
+      <Property Name="Name">StaticTextControl2</Property>
+      <Property Name="Size">0, 13</Property>
+      <Property Name="Location">50, 99</Property>
+      <Property Name="BackColor">CornflowerBlue</Property>
+      <Property Name="Text">
+      </Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl5" ControlName="Switch/Indicator 2">
+      <Property Name="Name">SwitchControl5</Property>
+      <Property Name="Size">40, 30</Property>
+      <Property Name="Location">219, 451</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="Activation">Left</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SymbolConfiguration">4;16;handson;;;led3_svc;1;;;-1</Property>
+      <Property Name="TabIndex">19</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl6" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl6</Property>
+      <Property Name="Size">23, 30</Property>
+      <Property Name="Location">155, 451</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="IsButton">True</Property>
+      <Property Name="ImageFile">..\..\..\Public\Documents\Vector\CANoe\8.2\CANoe Demos\templates\Vector_LEDgreen_2.bmp</Property>
+      <Property Name="SymbolConfiguration">4;2;CAN;;LedMessage;Led_3;1;CAN;;-1</Property>
+      <Property Name="TabIndex">17</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl3" ControlName="Analog Gauge">
+      <Property Name="Name">AnalogGaugeControl3</Property>
+      <Property Name="Size">236, 182</Property>
+      <Property Name="Location">356, 377</Property>
+      <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAW1ZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTguMi44MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAADZWZWN0b3IuQ0FOYWx5emVyLlBhbmVscy5EZXNpZ24uR2F1Z2VDcml0aWNhbFByb3BlcnRpZXMGBQAAADJWb2lkIC5jdG9yKERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSwgRG91YmxlKQYGAAAAUC5jdG9yKFN5c3RlbS5Eb3VibGUsIFN5c3RlbS5Eb3VibGUsIFN5c3RlbS5Eb3VibGUsIFN5c3RlbS5Eb3VibGUsIFN5c3RlbS5Eb3VibGUpAQAAAAoL">
+        <Argument>0</Argument>
+        <Argument>3000</Argument>
+        <Argument>0</Argument>
+        <Argument>500</Argument>
+        <Argument>2000</Argument>
+      </Property>
+      <Property Name="GaugeFont">Microsoft Sans Serif, 8pt</Property>
+      <Property Name="SymbolConfiguration">4;2;CAN;;ADC_Read_3;ADC_3_input;1;CAN;;-1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl2" ControlName="Switch/Indicator 2">
+      <Property Name="Name">SwitchControl2</Property>
+      <Property Name="Size">40, 30</Property>
+      <Property Name="Location">219, 83</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="Activation">Left</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="SymbolConfiguration">4;16;handson;;;led1_svc;1;;;-1</Property>
+      <Property Name="TabIndex">8</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.TrackBarControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="TrackBarControl1" Children="Controls" ControlName="Track Bar">
+      <Property Name="Name">TrackBarControl1</Property>
+      <Property Name="Size">167, 47</Property>
+      <Property Name="Location">116, 9</Property>
+      <Property Name="Maximum">100</Property>
+      <Property Name="TickFrequency">25</Property>
+      <Property Name="BackColor">Cornsilk</Property>
+      <Property Name="TickFrequencyDouble">25</Property>
+      <Property Name="MaximumDouble">100</Property>
+      <Property Name="DisplayValue">True</Property>
+      <Property Name="CommitValue">OnlyLastValue</Property>
+      <Property Name="SymbolConfiguration">4;16;handson;;;period1_svc;1;;;-1</Property>
+      <Property Name="TabIndex">5</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.SwitchControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="SwitchControl1" ControlName="Switch/Indicator">
+      <Property Name="Name">SwitchControl1</Property>
+      <Property Name="Size">23, 30</Property>
+      <Property Name="Location">166, 83</Property>
+      <Property Name="StateCnt">2</Property>
+      <Property Name="SwitchValues">1;2;0;1</Property>
+      <Property Name="IsButton">True</Property>
+      <Property Name="ImageFile">..\..\..\Public\Documents\Vector\CANoe\8.2\CANoe Demos\templates\Vector_LEDgreen_2.bmp</Property>
+      <Property Name="SymbolConfiguration">4;2;CAN;;LedMessage;Led_1;1;CAN;;-1</Property>
+      <Property Name="TabIndex">1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.AnalogGaugeControl, Vector.CANalyzer.Panels.AnalogGauge, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="AnalogGaugeControl1" ControlName="Analog Gauge">
+      <Property Name="Name">AnalogGaugeControl1</Property>
+      <Property Name="Size">236, 182</Property>
+      <Property Name="Location">356, 3</Property>
+      <Property Name="CriticalProps" Member="AAEAAAD/////AQAAAAAAAAAEAQAAAC9TeXN0ZW0uUmVmbGVjdGlvbi5NZW1iZXJJbmZvU2VyaWFsaXphdGlvbkhvbGRlcgcAAAAETmFtZQxBc3NlbWJseU5hbWUJQ2xhc3NOYW1lCVNpZ25hdHVyZQpTaWduYXR1cmUyCk1lbWJlclR5cGUQR2VuZXJpY0FyZ3VtZW50cwEBAQEBAAMIDVN5c3RlbS5UeXBlW10GAgAAAAUuY3RvcgYDAAAAW1ZlY3Rvci5DQU5hbHl6ZXIuUGFuZWxzLkFuYWxvZ0dhdWdlLCBWZXJzaW9uPTguMi44MC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwGBAAAADZWZWN0b3IuQ0FOYWx5emVyLlBhbmVscy5EZXNpZ24uR2F1Z2VDcml0aWNhbFByb3BlcnRpZXMGBQAAADJWb2lkIC5jdG9yKERvdWJsZSwgRG91YmxlLCBEb3VibGUsIERvdWJsZSwgRG91YmxlKQYGAAAAUC5jdG9yKFN5c3RlbS5Eb3VibGUsIFN5c3RlbS5Eb3VibGUsIFN5c3RlbS5Eb3VibGUsIFN5c3RlbS5Eb3VibGUsIFN5c3RlbS5Eb3VibGUpAQAAAAoL">
+        <Argument>0</Argument>
+        <Argument>3000</Argument>
+        <Argument>0</Argument>
+        <Argument>500</Argument>
+        <Argument>2000</Argument>
+      </Property>
+      <Property Name="GaugeFont">Microsoft Sans Serif, 8pt</Property>
+      <Property Name="SymbolConfiguration">4;2;CAN;;ADC_Read_1;ADC_1_input;1;CAN;;-1</Property>
+    </Object>
+    <Object Type="Vector.CANalyzer.Panels.Design.StartStopControl, Vector.CANalyzer.Panels.CommonControls, Version=8.2.80.0, Culture=neutral, PublicKeyToken=null" Name="StartStopControl1" Children="Controls" ControlName="Start Stop Control">
+      <Property Name="Name">StartStopControl1</Property>
+      <Property Name="Size">112, 56</Property>
+      <Property Name="Location">0, 0</Property>
+      <Property Name="TabIndex">0</Property>
+    </Object>
+    <Property Name="Name">Panel</Property>
+    <Property Name="Size">605, 563</Property>
+    <Property Name="BackColor">LightSteelBlue</Property>
+  </Object>
+</Panel>
